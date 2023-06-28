@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-   <h1>This is home page</h1>
+  <div class="admin">
+   <h1>This is admin page</h1>
   </div>
         <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -35,10 +35,9 @@
 
 <script>
 
-import Card from '@/components/Card.vue'
 
 export default {
-  name: 'HomeView',
-  components: {Card}
+  name: 'AdminView',
+  components: {}
 }
 </script>

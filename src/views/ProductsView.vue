@@ -1,8 +1,9 @@
 <template>
-  <div class="home">
-   <h1>This is home page</h1>
+  <div class="product">
+   <h1>This is product page</h1>
   </div>
-        <!-- Modal -->
+  <Card v-for="product in products" :key="product" :card="product"/>
+         <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -38,7 +39,16 @@
 import Card from '@/components/Card.vue'
 
 export default {
-  name: 'HomeView',
+  computed:{
+   products() {
+    return this.$store.state.products
+   },
+   mounted() {
+    this.$store.dispatch("getProducts")
+   },
+  }, 
+    name: 'ProductsView',
   components: {Card}
 }
+
 </script>
