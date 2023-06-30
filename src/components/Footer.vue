@@ -52,20 +52,20 @@
               Products
             </h6>
             <p>
-              <router-link to="/product" class="text-reset">Tops</router-link>
-              <router-link to="/product" class="text-reset">Tops</router-link>
+              <router-link to="/products" class="text-reset">Tops</router-link>
+              <router-link to="/products" class="text-reset">Tops</router-link>
             </p>
             <p>
-              <router-link to="/product" class="text-reset">Dresses</router-link>
-              <router-link to="/product" class="text-reset">Dresses</router-link>
+              <router-link to="/products" class="text-reset">Dresses</router-link>
+              <router-link to="/products" class="text-reset">Dresses</router-link>
             </p>
             <p>
-              <router-link to="/product" class="text-reset">Jeans</router-link>
-              <router-link to="/product" class="text-reset">Jeans</router-link>
+              <router-link to="/products" class="text-reset">Jeans</router-link>
+              <router-link to="/products" class="text-reset">Jeans</router-link>
             </p>
             <p>
-              <router-link to="/product" class="text-reset">Shoes</router-link>
-              <router-link to="/product" class="text-reset">Shoes</router-link>
+              <router-link to="/products" class="text-reset">Shoes</router-link>
+              <router-link to="/products" class="text-reset">Shoes</router-link>
             </p>
           </div>
           <!-- Grid column -->
@@ -83,7 +83,7 @@
               <router-link to="/about" class="text-reset">About Us</router-link>
             </p>
             <p>
-              <router-link to="/product" class="text-reset">Product</router-link>
+              <router-link to="/products" class="text-reset">Product</router-link>
             </p>
             <p>
                 <router-link to="/contact" class="text-reset">Contact</router-link>

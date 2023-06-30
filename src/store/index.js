@@ -9,20 +9,20 @@ export default createStore({
     setProducts: (state,products) => {
       state.products = products;
     },
-    setTutorial: (state, tutorial) => {
-      state.tutorial = tutorial;
+    setProduct: (state, product) => {
+      state.product = product;
     },
   },
   actions: {
     getProducts: async (context) => {
-      fetch("http://localhost:3000/products/")
+      fetch("http://localhost:3000/products")
       .then((res) => res.json())
-      .then((products) => console.log(products));
+      .then((products) => context.commit( 'setProducts', products));
     },
     getProduct: async (context,id) => {
-      fetch("http://localhost:3000/product/" + id)
+      fetch("http://localhost:3000/products/" + id)
       .then((res) => res.json())
-      .then((tutorial) => context.commit("setTutorial", tutorial));
+      .then((product) => context.commit("setProduct", product));
     },
   },
 });

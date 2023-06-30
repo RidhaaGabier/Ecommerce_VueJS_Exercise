@@ -9,7 +9,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul id="navbar" class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li><router-link to="/">Home |</router-link></li> 
-          <li><router-link to="/product">Product |</router-link></li> 
+          <li><router-link to="/products">Product |</router-link></li> 
           <li><router-link to="/about">About |</router-link></li> 
           <li><router-link to="/contact">Contact |</router-link></li> 
           <li><router-link to="/admin">Admin |</router-link></li> 

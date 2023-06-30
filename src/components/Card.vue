@@ -17,6 +17,6 @@
 
 <script>
 export default {
-    props: ["card"]
+  props: ["card"],
 }
 </script>
